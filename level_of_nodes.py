@@ -1,5 +1,5 @@
-# This programme tells the level of all the nodes present in a tree using bfs.
-# Here n is the number of vetex starting from 0 and n-1 edges are given
+# This programme tells the level of all the nodes present in a given tree using bfs.
+# Here n is the number of vetex starting from 0 and n-1 edges are given.
 
 # input format
 # 7
@@ -10,27 +10,9 @@
 # 1 5
 # 2 6
 
-
-def ii():
-	a = int(input())
-	return a
-def ai():
-	a = list(map(int, input().split()))
-	return a
-def mi():
-	a = map(int, input().split())
-	return a
-
-def ii():
-	a = int(input())
-	return a
-def ai():
-	a = list(map(int, input().split()))
-	return a
-def mi():
-	a = map(int, input().split())
-	return a
-
+def ii(): return int(input())
+def ai(): return list(map(int, input().split()))
+def mi(): return map(int, input().split())
 
 n = ii()
 ad_lst = [[] for i in range(n)]  # This is tree
